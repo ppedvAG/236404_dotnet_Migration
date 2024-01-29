@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!--<TargetFramework>net7.0-windows</TargetFramework>-->
+    <!--<TargetFramework>net48</TargetFramework>-->
+    <TargetFrameworks>net7.0-windows;net48;</TargetFrameworks>
+    <!--<Nullable>enable</Nullable>-->
+    <UseWindowsForms>true</UseWindowsForms>
+    <!--<ImplicitUsings>enable</ImplicitUsings>-->
+  </PropertyGroup>
+
+</Project>
