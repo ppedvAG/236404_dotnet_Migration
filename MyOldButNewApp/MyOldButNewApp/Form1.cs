@@ -125,5 +125,10 @@ namespace MyOldButNewApp
         {
             cts?.Cancel();
         }
+
+        private void booksClient1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

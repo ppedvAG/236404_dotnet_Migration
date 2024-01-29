@@ -80,6 +80,7 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.booksClient1 = new MyOldButNewApp.BooksClient();
             this.flowLayoutPanel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -137,7 +138,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 98);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(951, 100);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(992, 100);
             this.flowLayoutPanel1.TabIndex = 2;
             // 
             // menuStrip1
@@ -151,7 +152,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(951, 48);
+            this.menuStrip1.Size = new System.Drawing.Size(992, 48);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -393,7 +394,7 @@
             this.helpToolStripButton});
             this.toolStrip1.Location = new System.Drawing.Point(0, 48);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(951, 50);
+            this.toolStrip1.Size = new System.Drawing.Size(992, 50);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -484,9 +485,9 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 538);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 653);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(951, 38);
+            this.statusStrip1.Size = new System.Drawing.Size(992, 38);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -547,12 +548,23 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // booksClient1
+            // 
+            this.booksClient1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.booksClient1.Location = new System.Drawing.Point(0, 198);
+            this.booksClient1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.booksClient1.Name = "booksClient1";
+            this.booksClient1.Size = new System.Drawing.Size(992, 455);
+            this.booksClient1.TabIndex = 6;
+            this.booksClient1.Load += new System.EventHandler(this.booksClient1_Load);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(951, 576);
+            this.ClientSize = new System.Drawing.Size(992, 691);
+            this.Controls.Add(this.booksClient1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.toolStrip1);
@@ -628,6 +640,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private BooksClient booksClient1;
     }
 }
 
