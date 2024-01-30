@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOldButNewApp", "MyOldButNewApp\MyOldButNewApp.csproj", "{9E16204C-2073-4B63-8F3C-24FE616B2A7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOldButNewApp.GoogleBooksClient", "MyOldButNewApp.GoogleBooksClient\MyOldButNewApp.GoogleBooksClient.csproj", "{A278E36D-D7DB-42BE-B467-AA249C112B79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9E16204C-2073-4B63-8F3C-24FE616B2A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E16204C-2073-4B63-8F3C-24FE616B2A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E16204C-2073-4B63-8F3C-24FE616B2A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

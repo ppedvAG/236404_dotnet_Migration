@@ -58,7 +58,6 @@
     <Compile Include="BooksClient.Designer.cs">
       <DependentUpon>BooksClient.cs</DependentUpon>
     </Compile>
-    <Compile Include="BooksResult.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +95,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyOldButNewApp.GoogleBooksClient\MyOldButNewApp.GoogleBooksClient.csproj">
+      <Project>{a278e36d-d7db-42be-b467-aa249c112b79}</Project>
+      <Name>MyOldButNewApp.GoogleBooksClient</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
