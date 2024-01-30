@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp5000.EfCoreData", "Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp5000.UI.Desktop", "CarApp5000.UI.Desktop\CarApp5000.UI.Desktop.csproj", "{42CDEA02-E403-4CB1-8FBC-E65F7F1D075B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarApp5000.API", "CarApp5000.API\CarApp5000.API.csproj", "{1B011ECD-A6C6-4893-B915-8BC796112433}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{42CDEA02-E403-4CB1-8FBC-E65F7F1D075B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42CDEA02-E403-4CB1-8FBC-E65F7F1D075B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42CDEA02-E403-4CB1-8FBC-E65F7F1D075B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B011ECD-A6C6-4893-B915-8BC796112433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B011ECD-A6C6-4893-B915-8BC796112433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B011ECD-A6C6-4893-B915-8BC796112433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B011ECD-A6C6-4893-B915-8BC796112433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
