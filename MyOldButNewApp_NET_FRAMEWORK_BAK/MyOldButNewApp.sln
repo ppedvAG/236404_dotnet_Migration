@@ -1,13 +1,11 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOldButNewApp", "MyOldButNewApp\MyOldButNewApp.csproj", "{9E16204C-2073-4B63-8F3C-24FE616B2A7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyOldButNewApp.GoogleBooksClient", "MyOldButNewApp.GoogleBooksClient\MyOldButNewApp.GoogleBooksClient.csproj", "{A278E36D-D7DB-42BE-B467-AA249C112B79}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyOldButNewAppCore", "MyOldButNewAppCore\MyOldButNewAppCore.csproj", "{77C6DA0D-C7F3-419E-B434-027DF2DAF52C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyOldButNewApp.GoogleBooksClient", "MyOldButNewApp.GoogleBooksClient\MyOldButNewApp.GoogleBooksClient.csproj", "{A278E36D-D7DB-42BE-B467-AA249C112B79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A278E36D-D7DB-42BE-B467-AA249C112B79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{77C6DA0D-C7F3-419E-B434-027DF2DAF52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77C6DA0D-C7F3-419E-B434-027DF2DAF52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77C6DA0D-C7F3-419E-B434-027DF2DAF52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77C6DA0D-C7F3-419E-B434-027DF2DAF52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
